@@ -1,0 +1,107 @@
+.explore{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.explore .content{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explore .title{
+    max-width: 300px;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.explore .description{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 80px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explore .image{
+    width: 150px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    box-shadow: 4px -2px 5px 4px rgba(180,180,180,0.2);
+    margin-bottom: 80px;
+    opacity: 0.60;
+}
+
+@media (min-width:921px){
+    .explore{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row
+    }
+    .explore .content{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+    }
+    .explore .title, .explore .description{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .explore .title{
+        max-width:750px;
+        font-size: 48px;
+        line-height: 50px;
+        padding-top: 90px;
+    }
+    .explore .description{
+        max-width:700px;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .explore .image{
+        width: 300px;
+        height: 420px;
+    }
+}
+
+@media (min-width:500px) and (max-width:920px){
+    .explore{
+        align-self: flex-end;
+        justify-content: space-between;
+    }
+    .explore .content{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 800px;
+        width: 95%;
+        flex-direction: column;
+    }
+    .explore .title, .explore .description{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .explore .title{
+        max-width:700px;
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .explore .description{
+        max-width:500px;
+        font-size: 20px;
+    }
+    .explore .image{
+        width: 300px;
+        height: 420px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
