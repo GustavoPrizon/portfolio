@@ -14,7 +14,6 @@
 }
 
 .header .nav{
-    widows: 95%;
     padding-top: 3em;
 }
 
@@ -24,6 +23,7 @@
     width: 300px;
     justify-content: space-between;
     letter-spacing: 2px;
+    font-size: 20px;
 }
 
 .item:hover{
@@ -33,8 +33,9 @@
 }
 
 
-@media (max-width:425px){
+@media (max-width:450px){
     .header{
+        flex-direction: column;
         margin-bottom: 80px;
     }
     .header .logo{
@@ -49,5 +50,9 @@
         padding-bottom:10px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .header .menu{
+        width: 250px;
+        font-size: 15px;
     }
 }

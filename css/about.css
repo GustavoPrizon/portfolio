@@ -1,0 +1,89 @@
+.explore-about{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.explore-about .content-about{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+.explore-about .title-about{
+    max-width: 300px;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.explore-about .skill{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explore-about .about{
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.explore-about .description-about{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 80px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify; 
+}
+
+
+@media (min-width:921px){
+    .explore-about{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .explore-about .content-about{
+        height: 250px;
+        max-width: 700px;
+        width: 95%;
+    }
+    .explore-about .content{
+        max-width: 700px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .explore-about .about{
+        margin-top: 5px;
+    }
+    
+}
+
+@media (min-width:500px) and (max-width:920px){
+    .explore-about{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .explore-about .description-about{
+        max-width:500px;
+        font-size: 20px;
+    }
+}
