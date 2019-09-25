@@ -1,0 +1,10 @@
+.projetos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.projetos .projet-img{
+    width: 30%;
+}
