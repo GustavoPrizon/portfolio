@@ -1,56 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Portfólio - Gustavo Prizon</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projetos - Gustavo Prizon</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <div
+        class="d-flex justify-content-between align-items-center py-3 border-bottom"
+      >
+        <img
+          class="logo"
+          src="img/logo.png"
+          alt="Logo"
+          width="100"
+          height="100"
+        />
+        <nav class="nav">
+          <ul class="menu list-unstyled d-flex">
+            <li class="mx-3"><a href="index.html">Home</a></li>
+            <li class="mx-3"><a href="about.html">About</a></li>
+            <li class="mx-3"><a href="projects.html">Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500&display=swap" rel="stylesheet">
+    <section class="projects container my-5">
+      <h1 class="text-center">Meus Projetos</h1>
+      <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="img/layout-game.jpg"
+              alt="Layout projeto site de jogos"
+              class="card-img-top"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="footer container text-center py-4 border-top">
+      <h4 class="copyright">
+        &copy; Todos os direitos reservados - Gustavo de Britto Prizon
+      </h4>
+      <ul class="medias list-unstyled d-flex justify-content-center">
+        <li class="mx-2">
+          <a
+            href="https://github.com/GustavoPrizon/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="img/icon-github.svg"
+              alt="Icon Github"
+              width="24"
+              height="24"
+          /></a>
+        </li>
+        <li class="mx-2">
+          <a
+            href="https://www.linkedin.com/in/gustavo-de-britto-prizon-312962121/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="img/icon-linkedin.svg"
+              alt="Icon Linkedin"
+              width="24"
+              height="24"
+          /></a>
+        </li>
+        <li class="mx-2">
+          <a href="mailto:gustavoprizon@gmail.com" rel="noopener noreferrer"
+            ><img
+              src="img/icon-email.svg"
+              alt="Icon E-mail"
+              width="24"
+              height="24"
+          /></a>
+        </li>
+        <li class="mx-2">
+          <a
+            href="http://api.whatsapp.com/send?1=pt_BR&phone=5511984477832"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="img/icon-whatsapp.svg"
+              alt="Icon Whatsapp"
+              width="24"
+              height="24"
+          /></a>
+        </li>
+      </ul>
+    </footer>
 
-        
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/function.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/projects.css">
-        <link rel="stylesheet" href="css/footer.css">
-    </head>
-    <body>
-        <header class="header container">
-            <img class="logo" src="img/logo.png" alt="Logo">
-            <nav class="nav">
-                <ul class="menu">
-                    <li class="item"><a href="index.html">Home</a></li>
-                    <li class="item"><a href="about.html">About</a></li>
-                    <li class="item"><a href="projects.html">Projects</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <section class="explore-projet container">
-            <ul class="projetos">
-                <li class="item-projet"><img class="projet-img" src="img/layout-game.jpg" alt="Layout projeto site de jogos"></li>
-                <li class="item-projet"><img class="projet-img" src="img/layout-gravity.jpg" alt="Layout projeto site de jogos"></li>
-                <li class="item-projet"></li>
-                <li class="item-projet"></li>
-                <li class="item-projet"></li>
-                <li class="item-projet"></li>
-                <li class="item-projet"></li>
-                <li class="item-projet"></li>
-                <li class="item-projet"></li>
-            </ul>
-        </section>
-
-        <footer class="footer container">
-            <h4 class="copyright">&copy; All rights reserved - Gustavo de Britto Prizon</h4>
-            <ul class="medias">
-                <li class="icon"><a href="https://github.com/GustavoPrizon/" target="_blank" rel="noopener noreferrer" class="link"><img src="img/icon-github.svg" alt="Icon Github" class="image"></a></li>
-                <li class="icon"><a href="https://www.linkedin.com/in/gustavo-de-britto-prizon-312962121/" target="_blank" rel="noopener noreferrer" class="link"><img src="img/icon-linkedin.svg" alt="Icon Linkedin" class="image"></a></li>
-                <li class="icon"><a href=mailto:gustavoprizon@gmail.com rel="noopener noreferrer" class="link"><img src="img/icon-email.svg" alt="Icon E-mail" class="image"></a></li>
-                <li class="icon"><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511984477832" target="_blank" rel="noopener noreferrer" class="link"><img src="img/icon-whatsapp.svg" alt="Icon Whatsapp" class="image"></a></li>
-            </ul>
-        </footer>
-
-    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
